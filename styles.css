@@ -1,6 +1,7 @@
 body {
     text-align: center;
-    font-family: 'Happy Monkey', cursive;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
     background: linear-gradient(#a2d2ff, #EFB0C9);
     color: #ffffff;
 }
@@ -10,8 +11,8 @@ h1, h2, h3, h4, p {
 }
 
 #bff-img {
-    width: 150px;
-    border-radius: 50%;
+    width: 250px;
+    border-radius: 55%;
     border: 6px solid #EFB0C9;
     margin-bottom: 10px;
 }
@@ -48,10 +49,6 @@ h1, h2, h3, h4, p {
     margin-top: 0;
 }
 
-#gift-img-cheers {
-    height: 200px;
-}
-
 .gift-img {
     margin: 20px auto;
     max-width: 400px;
@@ -63,23 +60,39 @@ h1, h2, h3, h4, p {
 }
 
 #gift-img-happy:hover {
-    background-image: url("images/happy.gif");
+    background-image: url("images/Stripper.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #gift-img-hot:hover {
     background-image: url("images/hot.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 
-#gift-img-genius:hover {
-    background-image: url("images/genius.gif");
+#gift-img-fabulous:hover {
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHV2anB2b3V1MG9naHZpaWIwbjVhOHhzZ2xoZjJjd2dnZHh0MmM2eSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bOAOvT1xidANW/giphy.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #gift-img-badass:hover {
-    background-image: url("images/badass.gif");
+    background-image: url("images/Abs_39.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #gift-img-cheers:hover {
-    background-image: url("images/cheers.gif");
+    background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDhqNDdkZjJ2cWpmcGoyNW5lMGNibzY1aXBtbzJoNWtxN2Nqa3d6MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jUDvU0mBA9trNjOV3e/giphy.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #footer {
@@ -91,15 +104,3 @@ h1, h2, h3, h4, p {
 a {
     color: white;
 }
-
-/* 
-Add the footer paragraph according to the design. 
-Configure the anchor tag to open the link in a new tab.
-Forgotten how to do it? Google it! 
-
-Link: 
-https://scrimba.com/learn/htmlandcss
-
-Text:
-Want to create your own Birthday GIFt site? Take this HTML & CSS course.
-*/
